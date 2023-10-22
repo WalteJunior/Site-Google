@@ -1,0 +1,57 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("img/googleplex.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1,h2{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+p,li{
+    text-align: justify;
+    line-height: 1.5em;
+    margin: 15px auto;
+}
+section{
+    background-color: white;
+    width: 45vw;
+    margin: 20px auto;
+    border-radius: 25px;
+    padding: 50px;
+}
+img{
+    width: 100%;
+}
+.history{
+    margin-top: 45vh;
+}
+.creators{
+    margin-left: 15px;
+    padding:5px;
+    float: right;
+}
+.server{
+    margin-right: 15px;
+    padding-right:5px;
+    float: left;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid;
+}
+.app{
+    margin-left: 15px;
+    padding:10px;
+    float: right;
+}
